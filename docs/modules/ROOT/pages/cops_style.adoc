@@ -1670,7 +1670,7 @@ A.class_variable_set(:@@test, 10)
 
 # good
 class A
-  @test = 10
+  @@test = 10
 end
 
 class A
